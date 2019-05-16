@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import App from './App';
-import {createSerializer} from 'enzyme-to-json';
+// import {createSerializer} from 'enzyme-to-json';
 
-expect.addSnapshotSerializer(createSerializer({mode: 'deep'}));
+// expect.addSnapshotSerializer(createSerializer({mode: 'deep'}));
 
 const app = shallow(<App />);
 
